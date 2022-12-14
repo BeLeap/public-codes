@@ -1,33 +1,39 @@
-#app, #app:before, #app:after {
-  position: absolute;
-  top: -600px;
-  left: 0;
+#app:before, #app:after {
+  content: "";
+  position: fixed;
+  top: -3000%;
   bottom: 0;
   right: 0;
-  background-image: radial-gradient(6px 6px at 518px 53px, white 50%, transparent), radial-gradient(4px 4px at 545px 570px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(3px 3px at 128px 15px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(4px 4px at 573px 21px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(6px 6px at 455px 483px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(3px 3px at 357px 421px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(3px 3px at 395px 298px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(4px 4px at 225px 589px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(4px 4px at 92px 446px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(4px 4px at 89px 574px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(3px 3px at 326px 295px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(4px 4px at 423px 68px, white 50%, transparent), radial-gradient(3px 3px at 47px 587px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(6px 6px at 105px 416px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(6px 6px at 217px 404px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(5px 5px at 468px 519px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(4px 4px at 409px 247px, white 50%, transparent), radial-gradient(4px 4px at 540px 463px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(5px 5px at 255px 550px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(6px 6px at 116px 205px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(4px 4px at 66px 467px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(5px 5px at 591px 217px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(5px 5px at 550px 561px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(4px 4px at 374px 298px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(5px 5px at 129px 324px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(3px 3px at 314px 396px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(3px 3px at 248px 589px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(4px 4px at 426px 207px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(3px 3px at 285px 77px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(4px 4px at 69px 299px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(3px 3px at 438px 209px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(3px 3px at 486px 97px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(6px 6px at 47px 48px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(3px 3px at 316px 250px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(6px 6px at 530px 30px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(3px 3px at 130px 235px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(4px 4px at 44px 326px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(4px 4px at 480px 407px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(5px 5px at 18px 532px, white 50%, transparent), radial-gradient(3px 3px at 266px 16px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(4px 4px at 34px 123px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(3px 3px at 305px 457px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(4px 4px at 584px 389px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(6px 6px at 148px 207px, white 50%, transparent), radial-gradient(3px 3px at 297px 153px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(6px 6px at 95px 293px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(3px 3px at 25px 84px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(6px 6px at 282px 11px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(3px 3px at 583px 438px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(5px 5px at 285px 134px, white 50%, transparent), radial-gradient(3px 3px at 440px 261px, white 50%, transparent), radial-gradient(6px 6px at 34px 354px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(4px 4px at 107px 177px, white 50%, transparent), radial-gradient(5px 5px at 317px 15px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(3px 3px at 238px 442px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(5px 5px at 145px 16px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(4px 4px at 503px 501px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(3px 3px at 409px 336px, white 50%, transparent), radial-gradient(5px 5px at 406px 92px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(3px 3px at 360px 131px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(4px 4px at 564px 453px, rgba(255, 255, 255, 0.7) 50%, transparent), radial-gradient(3px 3px at 493px 308px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(6px 6px at 391px 30px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(5px 5px at 153px 315px, white 50%, transparent), radial-gradient(6px 6px at 321px 159px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(3px 3px at 357px 143px, rgba(255, 255, 255, 0.6) 50%, transparent), radial-gradient(3px 3px at 509px 276px, rgba(255, 255, 255, 0.8) 50%, transparent), radial-gradient(6px 6px at 78px 536px, rgba(255, 255, 255, 0.9) 50%, transparent), radial-gradient(4px 4px at 455px 97px, white 50%, transparent), radial-gradient(4px 4px at 221px 175px, rgba(255, 255, 255, 0.9) 50%, transparent);
-  background-size: 600px 600px;
-  animation: snow 3s linear infinite;
-  content: "";
-}
-
-#app:after {
-  margin-left: -200px;
-  opacity: .4;
-  animation-duration: 6s;
-  animation-direction: reverse;
-  filter: blur(3px);
+  left: 0;
+  -webkit-animation-name: MOVE-BG;
+  -webkit-animation-duration: 500s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
 }
 
 #app:before {
-  animation-duration: 9s;
-  animation-direction: reverse;
-  margin-left: -300px;
-  opacity: .65;
-  filter: blur(1.5px);
+  filter: blur(4px);
+  opacity: 0.8;
+  top: -2500%;
+  background-size: 60%;
+  animation-duration: 400s;
 }
 
-@keyframes snow {
+#app:after {
+  filter: blur(2px);
+  opacity: 0.8;
+  top: -2000%;
+  background-image: url(https://laviwebfiles.com/stage/codepen/4-2-white-snow-png.png);
+  background-size: 70%;
+  animation-duration: 300s;
+  z-index: -1;
+}
+
+@-webkit-keyframes MOVE-BG {
+  from {
+    transform: translateY(0);
+  }
   to {
-    transform: translateY(600px);
+    transform: translateY(70%);
   }
 }
