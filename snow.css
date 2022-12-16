@@ -23,7 +23,7 @@
   filter: blur(2px);
   opacity: 0.8;
   top: -2000%;
-  background-image: url(https://laviwebfiles.com/stage/codepen/4-2-white-snow-png.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/beleap/public-codes@main/4-2-white-snow-png.png);
   background-size: 70%;
   animation-duration: 300s;
   z-index: -1;
